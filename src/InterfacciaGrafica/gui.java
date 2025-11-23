@@ -12,6 +12,9 @@ import java.util.ArrayList;
 
 public class gui extends JFrame {
 
+    // --SerialID GUI
+    private static final long serialVersionUID = 1L;
+
     // --Componenti principali dell'interfaccia
     private JList<String> contactList;
     private DefaultListModel<String> listModel;
